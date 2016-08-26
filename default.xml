@@ -3,6 +3,10 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
+           
+   <remote  name="github"
+           fetch="https://github.com/" />         
+           
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -531,5 +535,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+<!-- CUSTOM REPOS -->
+  <project path="device/lge/mako" name="zaclimon/android_device_lge_mako" remote="github" revision="nougat-release"/>
+  <project path="kernel/lge/mako" name="zaclimon/android_kernel_google_msm" remote="github" revision="mako-nougat"/>
+  <project path="vendor/lge" name="DirtyUnicorns/android_vendor_lge" remote="github" revision="n"/>
 
 </manifest>
