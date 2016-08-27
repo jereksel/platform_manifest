@@ -537,7 +537,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 <!-- CUSTOM REPOS -->
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" revision="android-5.1.1_r38" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" revision="lollipop-mr1-release" />
   <project path="device/lge/mako" name="zaclimon/android_device_lge_mako" remote="github" revision="nougat-release"/>
   <project path="vendor/lge" name="DirtyUnicorns/android_vendor_lge" remote="github" revision="n"/>
 
