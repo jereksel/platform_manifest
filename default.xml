@@ -538,7 +538,7 @@
 
 <!-- CUSTOM REPOS -->
   <project path="device/lge/mako" name="zaclimon/android_device_lge_mako" remote="github" revision="nougat-release"/>
-  <project path="kernel/lge/mako" name="zaclimon/android_kernel_google_msm" remote="github" revision="mako-nougat"/>
+  <project path="kernel/lge/mako" name="DirtyUnicorns/android_kernel_lge_mako" remote="github" revision="m"/>
   <project path="vendor/lge" name="DirtyUnicorns/android_vendor_lge" remote="github" revision="n"/>
 
 </manifest>
